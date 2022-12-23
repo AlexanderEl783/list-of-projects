@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', function () {
 function displayProjects(listItems) {
     let displayProject = listItems.map(function (item) {
         return `<article class="projects"><a href="${item.link}" target="_blank" class="link-wrap">
-        <img src="${item.img}" class="photo" alt="${item.name}"></a>
+        <img src="${item.img}" class="photo" alt="${item.project}"></a>
         <div class="link-div">
           <a href="${item.githubLink}" target=_blank class="link" title="GitHub"><i class="fa fa-github fa-2x"></i></a>
           <h3 class="project-name">${item.project}</h3>
