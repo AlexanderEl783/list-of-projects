@@ -77,13 +77,14 @@ h2 {
 .photo {
   object-fit: cover;
   width: 350px;
+  height: 200px;
   overflow: hidden;
   cursor: pointer;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 
-.btn-container {
+/* .btn-container {
   margin-bottom: 4rem;
   display: flex;
   flex-wrap: wrap;
@@ -108,7 +109,7 @@ h2 {
 .filter-btn:hover {
   background: rgb(95, 133, 90);
   color: goldenrod;
-}
+} */
 
 .hide-category {
   z-index: -100;
