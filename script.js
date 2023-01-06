@@ -47,6 +47,14 @@ const list = [
         link: "https://alexanderel783.github.io/Ammeter/",
         githubLink: "https://github.com/AlexanderEl783/Ammeter"
     },
+    {
+        id: 7,
+        category: "JavaScript",
+        img: "./images/7-ToDo.png",
+        project: "ToDo",
+        link: "https://alexanderel783.github.io/JS_practice/6.To_do/",
+        githubLink: "https://github.com/AlexanderEl783/JS_practice/tree/main/6.To_do"
+    },
 ];
 
 const sectionCenter = document.querySelector('.section-center');
