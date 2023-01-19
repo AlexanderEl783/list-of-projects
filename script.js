@@ -55,6 +55,14 @@ const list = [
         link: "https://alexanderel783.github.io/JS_practice/6.To_do/",
         githubLink: "https://github.com/AlexanderEl783/JS_practice/tree/main/6.To_do"
     },
+    {
+        id: 8,
+        category: "JavaScript",
+        img: "./images/8-Cat_food.png",
+        project: "Cat's food",
+        link: "https://alexanderel783.github.io/Cat_food/",
+        githubLink: "https://github.com/AlexanderEl783/Cat_food"
+    },
 ];
 
 const sectionCenter = document.querySelector('.section-center');
